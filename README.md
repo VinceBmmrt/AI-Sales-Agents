@@ -39,7 +39,10 @@ Clone the repository
 
 Install dependencies: uv sync
 
-Copy .env.example to .env and set your environment variables:
+Copy .env.example to .env and set your environment variables
+
+By default, the sender and recipient emails in `email.py` are set to use Resend’s testing domain.  
+To use your own domain or email addresses, edit the `from_email` and `to_email` fields in that file.
 
 Run the main script: python main.py
 

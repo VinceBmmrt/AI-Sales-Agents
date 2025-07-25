@@ -1,11 +1,19 @@
 # AI-Sales-Agents
-## Description / Description
+## Description 
 
-Français :
-AI-Sales-Agents est un projet d’automatisation intelligente de la création et de l’envoi d’e-mails de prospection commerciale ciblée. Le système génère plusieurs versions d’e-mails avec différents styles, sélectionne automatiquement la meilleure et l’envoie via une API dédiée.
+#### Description (FR)
+Ce projet est une application d’IA spécialisée dans la génération automatisée d’e-mails commerciaux pour une entreprise SaaS dédiée à la conformité SOC2 et la préparation d’audits grâce à l’intelligence artificielle.
 
-English :
-AI-Sales-Agents is a project for intelligent automation of creating and sending targeted sales outreach emails. The system generates multiple email versions with different styles, automatically selects the best one, and sends it via a dedicated API.
+Le système utilise plusieurs agents IA, chacun avec un style d’écriture distinct (professionnel, humoristique, concis), pour produire plusieurs versions d’un e-mail de prospection. Ensuite, un agent « Sélectionneur » choisit la meilleure proposition. Ce mail est ensuite envoyé automatiquement via l’API Resend grâce à une fonction dédiée.
+
+La coordination est orchestrée via un gestionnaire d’agents, avec exécution asynchrones. Le projet met en œuvre une architecture modulaire claire, séparant les agents, la logique d’envoi d’email et le contrôle principal.
+
+#### Project Description (EN)
+This project is an AI-powered application for automated cold sales email generation for ComplAI, a SaaS company focused on SOC2 compliance and audit preparation using artificial intelligence.
+
+The system uses multiple AI agents, each with a distinct writing style (professional, humorous, concise), to generate several versions of a sales email. Then, a “picker” agent selects the best version. The chosen email is automatically sent through the Resend API using a dedicated function.
+
+The orchestration is managed by an agent runner with asynchronous execution. The project features a clear modular architecture, separating agents, email sending logic, and the main control flow.
 
 ## Features
 Three AI sales agents generating emails in different styles (professional, humorous, concise).

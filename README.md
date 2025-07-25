@@ -26,6 +26,8 @@ Asynchronous execution for parallel agent runs and faster results.
 
 Modular design for easy extension with new agents or tools.
 
+Integrated an Email Manager agent that formats email content by generating subject lines, converting text to HTML, and handling sending via a clean handoff system between agents.
+
 ## Technologies
 Python 3.12+
 

@@ -13,19 +13,19 @@ a company that provides a SaaS tool for ensuring SOC2 compliance and preparing f
 You write concise, to the point cold emails."
 
 sales_agent1 = Agent(
-    name="sales_agent1",
+    name="Professional Sales Agent",
     instructions=instructions1,
     model="gpt-4o-mini"
 )
 
 sales_agent2 = Agent(
-    name="sales_agent2",
+    name="Engaging Sales Agent",
     instructions=instructions2,
     model="gpt-4o-mini"
 )
 
 sales_agent3 = Agent(
-    name="sales_agent3",
+    name="Busy Sales Agent",
     instructions=instructions3,
     model="gpt-4o-mini"
 )
